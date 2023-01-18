@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #302929;
+}
+
+.nav {
+  width: 100vw;
+  background-color: #ff8b13;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calculatorDiv {
+  width: 30vw;
+  height: 80vh;
+  background-color: #3b3231;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  font-size: 2.5rem;
+  align-items: center;
+  width: 80%;
+  height: 10vh;
+  /* border: 1px solid #ff8b13; */
+  border-radius: 5px;
+  text-align: right;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn,
+.function {
+  all: unset;
+  width: 2vw;
+  padding: 20px;
+  background-color: #575151;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #766e6e;
+}
+
+.function {
+  background-color: #ff8b13;
+}
+
+.function:hover {
+  background-color: #f4a24a;
+}
